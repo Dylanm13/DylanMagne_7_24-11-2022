@@ -16,14 +16,26 @@
       transition: transform 300ms;
     }
   
-    &__title {
+    &__bigtitle {
       position: absolute;
-      bottom: 0;
-      font-size: 18px;
+      top: 50%;
+      left: 50%;
       font-weight: 500;
-      margin: 15px 20px;
+      margin: -29.32px -352.175px;
       color: $white;
       box-sizing: inherit;
+      @include media-query(small) {
+        font-size: 21px;
+        margin: -13px -154.078px;
+      }
+      @include media-query(medium) {
+        font-size: 35px;
+        margin: -21.5px -256.8px;
+      }
+      @include media-query(xlarge) {
+        font-size: 48px;
+        margin: -29.32px -352.175px;
+      }
     }
   
     &__overlay {
