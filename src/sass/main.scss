@@ -8,10 +8,15 @@
 @import "./components/herobanner";
 @import "./components/banner";
 @import "./components/collapse";
+@import "./components/slideshow";
+@import "./components/server";
+@import "./components/rating";
+@import "./components/tags";
 
 @import "./layout/navbar";
 @import "./layout/footer";
 
 @import "./pages/home";
 @import "./pages/pagenotfound";
-@import "./pages/about"
+@import "./pages/about";
+@import "./pages/singleproduct";

@@ -1,17 +1,17 @@
-import React from "react";
+import React from "react"; /* importation de react */
 
 //Style
-import logoFooter from "../design/logofooter.png";
+import logoFooter from "../design/logofooter.png"; /* importation du logo du site pour la version footer */
 
 function Footer() {
-  const effectiveYear = new Date().getFullYear();
+  const effectiveYear = new Date().getFullYear(); /* stockage dans une constante de l'année actuelle */
 
   return (
     <footer className="footer">
-      <img src={logoFooter} alt="Logo du footer" className="footer__logo" />
+      <img src={logoFooter} alt="Logo du footer" className="footer__logo" /> {/* le logo du footer prend comme source l'importation faite plus haut */}
       <p className="footer__text">
         &copy;
-        {effectiveYear} Kasa. All rights reserved
+        {effectiveYear} Kasa. All rights reserved {/* ici le texte correspon à © suivit de l'année actuelle puis du texte */}
       </p>
     </footer>
   );
