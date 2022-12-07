@@ -1,6 +1,5 @@
 import React from "react";
 
-// style
 import redstar from "../design/redstar.svg";
 import greystar from "../design/greystar.svg";
 

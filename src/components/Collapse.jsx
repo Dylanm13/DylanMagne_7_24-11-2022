@@ -28,7 +28,7 @@ function Collapse ({ title, content }) { /* initialisation de la function Collap
                 <img src={downArrow} alt="" className="collapse__arrow" />
             </button>
             <div className= "collapse__content">
-                {Array.isArray(content) ? (
+            {Array.isArray(content) ? (
                     <ul className="collapse__list">
                         {content.map((equipement, index) => (
                             <li key={index} className="collapse__list-element">

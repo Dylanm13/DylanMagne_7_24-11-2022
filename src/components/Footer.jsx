@@ -1,6 +1,5 @@
 import React from "react"; /* importation de react */
 
-//Style
 import logoFooter from "../design/logofooter.png"; /* importation du logo du site pour la version footer */
 
 function Footer() {
@@ -11,7 +10,7 @@ function Footer() {
       <img src={logoFooter} alt="Logo du footer" className="footer__logo" /> {/* le logo du footer prend comme source l'importation faite plus haut */}
       <p className="footer__text">
         &copy;
-        {effectiveYear} Kasa. All rights reserved {/* ici le texte correspon à © suivit de l'année actuelle puis du texte */}
+        {effectiveYear} Kasa. All rights reserved {/* ici le texte correspond à © suivit de l'année actuelle puis du texte */}
       </p>
     </footer>
   );
