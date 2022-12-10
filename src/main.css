@@ -426,6 +426,12 @@ code {
     height: 50px;
   }
 }
+.slideshow__number {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
 .slideshow__counter {
   display: none;
 }

@@ -39,6 +39,7 @@ function Slideshow ({slides }) {
                         </div> 
                     </> 
                 ) : null}
+                <p className="slideshow__number">{current+1}/{length}</p>
         </div>
     )
 }
